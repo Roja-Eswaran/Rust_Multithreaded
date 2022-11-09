@@ -1,0 +1,13 @@
+[package]
+name = "project04"
+version = "0.1.0"
+authors = ["rose"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+libsteg = { path = "./libsteg" }
+encode_decode_multi_thread = { path = "./encode_decode_multi_thread" }
+log = "0.4"
